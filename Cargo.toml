@@ -1,6 +1,12 @@
 [package]
 name = "remu"
-version = "0.1.0"
+version = "1.0.0"
+description = "remu is a tool for renaming multiple files at once"
+readme = "README.md"
+repository = "https://github.com/TheJeme/remu"
+license = "MIT"
+keywords = ["rename", "file"]
+categories = ["filesystem"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

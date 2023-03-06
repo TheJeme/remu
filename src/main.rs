@@ -4,9 +4,6 @@ use std::fs::DirEntry;
 use std::io::Error;
 use std::path::Path;
 
-// args = --uppercase | -u, --lowercase | -l, --first-letter-uppercase | -U, --first-letter-lowercase | -L
-// brf [dir_path] [file_name] [args]
-
 fn main() -> Result<(), Error> {
     let args: Vec<String> = env::args().collect();
     if args.len() != 3 {
