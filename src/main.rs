@@ -7,7 +7,7 @@ use std::path::Path;
 fn main() -> Result<(), Error> {
     let args: Vec<String> = env::args().collect();
     if args.len() != 3 {
-        println!("Invalid number of arguments. Usage: `brf [dir_path] [file_name] [args]`. Example: `brf ./files img`");
+        println!("Invalid number of arguments. Usage: `remu [dir_path] [file_name] [args]`. Example: `remu ./files img`");
         std::process::exit(0);
     }
     let config = Config::init(&args);
