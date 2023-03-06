@@ -1,6 +1,6 @@
 [package]
 name = "remu"
-version = "1.0.0"
+version = "1.0.1"
 description = "remu is a tool for renaming multiple files at once"
 readme = "README.md"
 repository = "https://github.com/TheJeme/remu"
